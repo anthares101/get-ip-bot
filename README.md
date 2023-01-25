@@ -1,6 +1,6 @@
 # Telegram Bot - Get IP bot
 
-Basically the idea is to have a way to getting the bot's server's current IP. Useful for getting a dynamic IP, just use the command `/locate`.
+Basically the idea is to have a way to get the bot's server's current IP. Useful for getting a dynamic IP, just use the command `/locate`.
 
 ## Standalone usage
 
