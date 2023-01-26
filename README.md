@@ -20,4 +20,4 @@ To build the image, simply run:
 
 After that is done, you can start your container:
 
-`docker run -v <<PATH/TO/YOUR/config.py>>:/app/config.py get-ip-bot`
+`docker run -v <PATH/TO/YOUR/config.py>:/app/config.py get-ip-bot`
