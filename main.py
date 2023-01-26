@@ -13,7 +13,7 @@ logging.basicConfig(
 async def locate(update: Update, context: ContextTypes.DEFAULT_TYPE):
     logging.info("IP request received")
     public_ip = get('https://api.ipify.org').text
-    await context.bot.send_message(chat_id=update.effective_chat.id, text=f"{config.HOSTNAME} is in {public_ip}")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text=f"{config.HOSTNAME} is at {public_ip}")
 
 if __name__ == '__main__':
     application = ApplicationBuilder().token(config.TOKEN).build()
